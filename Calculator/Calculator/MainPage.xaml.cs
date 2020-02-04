@@ -158,11 +158,7 @@ namespace Calculator
                 if (save_to_history)
                 {
                     calcLabel.Text = calc_text;
-                    history.AddToList(new Calc
-                    {
-                        Calculation = calcLabel.Text,
-                        Result = entryLabel.Text
-                    });
+                    AddToHistory(calcLabel.Text, entryLabel.Text);
                 }
             }
             catch (FormatException)
@@ -245,11 +241,7 @@ namespace Calculator
                 entryLabel.Text = result.ToString();
                 calcLabel.Text = num1.ToString() + ' ' + operation + ' ' + num2.ToString() + " =";
 
-                history.AddToList(new Calc
-                {
-                    Calculation = calcLabel.Text,
-                    Result = entryLabel.Text
-                });
+                AddToHistory(calcLabel.Text, entryLabel.Text);
             }
             catch (FormatException)
             {
@@ -298,13 +290,8 @@ namespace Calculator
                     if (calcLabel.Text == string.Empty || calcLabel.Text.Contains("="))
                     {
                         ClearValues();
-
                         calcLabel.Text = number.ToString() + "π =";
-                        history.AddToList(new Calc
-                        {
-                            Calculation = calcLabel.Text,
-                            Result = entryLabel.Text
-                        });
+                        AddToHistory(calcLabel.Text, entryLabel.Text);
                     }
                 }
                 catch (FormatException)
@@ -338,6 +325,15 @@ namespace Calculator
                 calcLabel.Text = history.SelectedCalc;
                 num1 = num2 = 0;
             }
+        }
+
+        private void AddToHistory(string calc_text, string result_text)
+        {
+            history.AddToList(new Calc
+            {
+                Calculation = calc_text,
+                Result = result_text
+            });
         }
     }
 }
