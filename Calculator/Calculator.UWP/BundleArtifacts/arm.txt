@@ -1,0 +1,4 @@
+MainPackage=C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\ARM\Debug\Calculator.UWP_1.0.1.0_ARM_Debug.appx
+SymbolPackage=C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\obj\ARM\Debug\Symbols\Calculator.UWP_1.0.1.0_ARM_Debug.appxsym
+ResourcePack=C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\ARM\Debug\Calculator.UWP_1.0.1.0_scale-100.appx
+ResourcePack=C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\ARM\Debug\Calculator.UWP_1.0.1.0_scale-400.appx

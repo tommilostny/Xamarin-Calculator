@@ -1,0 +1,2 @@
+MainPackage=C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x64\Debug\Calculator.UWP_1.0.1.0_x64_Debug.appx
+SymbolPackage=C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\obj\x64\Debug\Symbols\Calculator.UWP_1.0.1.0_x64_Debug.appxsym

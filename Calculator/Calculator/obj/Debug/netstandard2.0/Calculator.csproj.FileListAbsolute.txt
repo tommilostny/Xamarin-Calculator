@@ -1,0 +1,15 @@
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.deps.json
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.dll
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\ref\Calculator.dll
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.pdb
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csprojAssemblyReference.cache
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfo.cs
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.dll
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\ref\Calculator.dll
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.pdb
+C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\History.xaml.g.cs

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Calculator.MainPage"
+             Title="Calculator"
+             BackgroundColor="#EEEEEE">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="History"
+                     Clicked="HistoryToolbarItem_Clicked"
+                     x:Name="historyToolbarItem"
+                     Order="Primary"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="3">
+
+        <Grid Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40" />
+                <ColumnDefinition Width="7"/>
+                <ColumnDefinition Width="40"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button Text="DEG"
+                    TextColor="#3867d6"
+                    BackgroundColor="Transparent" BorderColor="Transparent"
+                    Padding="0"
+                    Grid.Column="0"
+                    Clicked="DegreesButton_Clicked"
+                    x:Name="degButton"/>
+            <Label Text="|" Grid.Column="1" Margin="0, 15, 0, 0" HorizontalOptions="CenterAndExpand" x:Name="labelDegRad" />
+            <Button Text="RAD"
+                    TextColor="Gray"
+                    BackgroundColor="Transparent" BorderColor="Transparent"
+                    Padding="0"
+                    Grid.Column="2"
+                    Clicked="RadianButton_Clicked"
+                    x:Name="radButton"/>
+        </Grid>
+
+        <Label x:Name="calcLabel"
+               Text=""
+               HorizontalOptions="EndAndExpand"
+               TextColor="Gray"
+               FontSize="17"
+               Margin="10, 0, 10, -15" />
+
+        <Label x:Name="entryLabel"
+               Text="0"
+               HorizontalOptions="EndAndExpand"
+               Margin="10, 0, 10, 40"
+               MaxLines="1"
+               FontSize="37" 
+               TextColor="Black"
+               FontAttributes="Bold"/>
+
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*" />
+                <ColumnDefinition Width="0.25*" />
+                <ColumnDefinition Width="0.25*" />
+                <ColumnDefinition Width="0.25*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button Text="sin"  Grid.Column="0" Grid.Row="0" Clicked="SingleOperationButton_Clicked"
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button Text="cos"       Grid.Column="1" Grid.Row="0" Clicked="SingleOperationButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button Text="tan"        Grid.Column="2" Grid.Row="0" Clicked="SingleOperationButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button Text="cotg"        Grid.Column="3" Grid.Row="0" Clicked="SingleOperationButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+
+
+            <Button Text="π"  Grid.Column="0" Grid.Row="1" Clicked="PiButton_Clicked"  x:Name="PiButton"
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+            <Button Text="x^y"       Grid.Column="0" Grid.Row="2" Clicked="DoubleOperationButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button Text="C"        Grid.Column="2" Grid.Row="1" Clicked="ClearButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button ImageSource="https://img.icons8.com/windows/25/000000/clear-symbol.png"   Grid.Column="3" Grid.Row="1" Clicked="BackspaceButton_Clicked" 
+                    BackgroundColor="#DEDEDE" x:Name="backspaceButton" />
+            
+            <Button Text="1/x"      Grid.Column="1" Grid.Row="1" Clicked="SingleOperationButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button Text="x²"      Grid.Column="1" Grid.Row="2" Clicked="SingleOperationButton_Clicked" 
+                    FontSize="19" BackgroundColor="#DEDEDE"/>
+            <Button Text="√"     Grid.Column="2" Grid.Row="2" Clicked="SingleOperationButton_Clicked" 
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+            <Button Text="÷"        Grid.Column="3" Grid.Row="2" Clicked="DoubleOperationButton_Clicked" 
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+
+            <Button Text="7"      Grid.Column="0" Grid.Row="3" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="8"      Grid.Column="1" Grid.Row="3" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="9"     Grid.Column="2" Grid.Row="3" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="⨯"        Grid.Column="3" Grid.Row="3" Clicked="DoubleOperationButton_Clicked" 
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+
+            <Button Text="4"      Grid.Column="0" Grid.Row="4" Clicked="NumberButton_Clicked" 
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="5"      Grid.Column="1" Grid.Row="4" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="6"     Grid.Column="2" Grid.Row="4" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="-"        Grid.Column="3" Grid.Row="4" Clicked="DoubleOperationButton_Clicked" 
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+
+            <Button Text="1"      Grid.Column="0" Grid.Row="5" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="2"      Grid.Column="1" Grid.Row="5"  Clicked="NumberButton_Clicked" 
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="3"     Grid.Column="2" Grid.Row="5"  Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="+"        Grid.Column="3" Grid.Row="5" Clicked="DoubleOperationButton_Clicked"
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+
+            <Button Text="±"      Grid.Column="0" Grid.Row="6" Clicked="SingleOperationButton_Clicked"
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+            <Button Text="0"      Grid.Column="1" Grid.Row="6" Clicked="NumberButton_Clicked" 
+                    FontSize="25" BackgroundColor="White"/>
+            <Button Text="."     Grid.Column="2" Grid.Row="6" Clicked="NumberButton_Clicked"
+                    FontSize="25" BackgroundColor="#DEDEDE"/>
+            <Button Text="="        Grid.Column="3" Grid.Row="6" Clicked="EqualsButton_Clicked" 
+                    FontSize="30" BackgroundColor="#3867d6" TextColor="White" FontAttributes="Bold" />
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
