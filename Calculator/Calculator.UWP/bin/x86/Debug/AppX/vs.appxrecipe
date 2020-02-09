@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-02-01T16:01:40.966</Modified>
+      <Modified>2020-02-04T17:53:16.177</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x86\Debug\Calculator.UWP.exe">
       <PackagePath>entrypoint\Calculator.UWP.exe</PackagePath>
-      <Modified>2020-02-01T16:01:38.172</Modified>
+      <Modified>2020-02-04T17:53:13.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2020-02-01T16:15:28.097</Modified>
+      <Modified>2020-02-04T17:53:06.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -227,15 +227,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-02-01T16:01:37.903</Modified>
+      <Modified>2020-02-04T17:53:13.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-02-01T16:01:37.903</Modified>
+      <Modified>2020-02-04T17:53:13.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-02-01T16:01:37.904</Modified>
+      <Modified>2020-02-04T17:53:13.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -255,7 +255,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tommi\xamarin\Calculator\Calculator\Calculator.UWP\bin\x86\Debug\Core\Calculator.UWP.exe">
       <PackagePath>Calculator.UWP.exe</PackagePath>
-      <Modified>2020-02-01T16:01:40.901</Modified>
+      <Modified>2020-02-04T17:53:16.167</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
